@@ -10,7 +10,7 @@
 
 body {
 	font-family: sans-serif;
-	background-color: #e8eef3;
+	background-color: #ffffff;
 	min-height: 100vh;
 }
 
@@ -149,31 +149,48 @@ a {
 	border-radius: 10px;
 	position: relative;
 	margin-top: 30px;
+	width: 530px;
 }
 
-/* .container .row .col .warna {
-	background-color: #1288981d;
+.hero .satu {
+	background-color: #09e2fff9;
 	width: 270px;
 	height: 260px;
 	border-radius: 10px;
-	position: relative;
+	position: absolute;
 	z-index: -99;
-	bottom: 410px;
-	right: 50px;
-} */
-
-.container .row .col .warni {
-	display: none;
+	top: 130px;
+	left: 80px;
 }
 
-h1 {
-	font-family: DM Serif Display;
+.hero .tiga {
+	background-color: #faf208f9;
+	width: 270px;
+	height: 260px;
+	border-radius: 10px;
+	position: absolute;
+	z-index: -96;
+	bottom: 50px;
+	left: 440px;
+}
+
+.hero .gambar img {
+	position: absolute;
+	top: 100px;
+	left: 520px;
+	width: 270px;
+	height: 300px;
+	z-index: -90;
+}
+
+h3 {
 	font-size: 52px;
-	font-weight: bold;
-	position: relative;
-	left: 30px;
-	margin-top: 220px;
+	/* margin-left: 30px; */
+	font-family: DM Serif Display;
+	/* margin-top: 60px; */
 }
+
+
 
 @media(max-width: 576px) {
 	.nav-toggler {
@@ -209,10 +226,11 @@ h1 {
 	}
 
 	.header .logo a {
-		font-size: 30px;
+		font-size: 20px;
 		color: #ffffff;
 		/* text-transform: capitalize; */
 		display: block;
+		font-family: DM Serif Display;
 	}
 
 	.header .logo a {
@@ -231,32 +249,45 @@ h1 {
 
 
 
-	.warna {
+	.hero .satu {
 		background-color: #fcfc28;
 		width: 270px;
 		height: 200px;
 		border-radius: 10px;
-		position: relative;
+		position: absolute;
 		z-index: -99;
-		bottom: 323px;
-		right: 10px;
+		top: 90px;
+		right: 2px;
 	}
 
-	.warni {
+	.hero .dua {
 		background-color: #0891af90;
 		width: 270px;
 		height: 200px;
 		border-radius: 10px;
-		position: relative;
-		z-index: -99;
-		bottom: 385px;
-		left: 200px;
+		position: absolute;
+		z-index: -98;
+		bottom: 460px;
+		left: 2px;
 	}
 
-	h1 {
-		font-size: 30px;
+	.hero .tiga {
+		display: none;
+	}
+
+	.hero .gambar img {
+		display: none;
+	}
+
+	h3 {
+		font-weight: bold;
+		font-family: DM Serif Display;
+		font-size: 32px;
+		text-align: center;
 		/* bottom: 160px; */
 	}
+
+
 
 
 }
