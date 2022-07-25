@@ -183,11 +183,11 @@ a {
 	z-index: -90;
 }
 
-h3 {
+.hero h3 {
 	font-size: 52px;
-	/* margin-left: 30px; */
+	margin-left: 30px;
 	font-family: DM Serif Display;
-	/* margin-top: 60px; */
+	margin-top: 60px;
 }
 
 
@@ -279,11 +279,13 @@ h3 {
 		display: none;
 	}
 
-	h3 {
+	.hero h3 {
 		font-weight: bold;
 		font-family: DM Serif Display;
 		font-size: 32px;
 		text-align: center;
+		margin-left: 0;
+		margin-top: 0;
 		/* bottom: 160px; */
 	}
 
