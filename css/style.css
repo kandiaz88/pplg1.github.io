@@ -224,16 +224,14 @@ h1 {
 		width: 100%;
 		border-radius: 10px;
 		position: relative;
-		margin-top: 17px;
+		margin-top: -30px;
 
 
 	}
 
-	/* .container .row .col .satu {
-		display: none;
-	}
 
-	.container .row .col .warna {
+
+	.warna {
 		background-color: #fcfc28;
 		width: 270px;
 		height: 200px;
@@ -244,7 +242,7 @@ h1 {
 		right: 10px;
 	}
 
-	.container .row .col .warni {
+	.warni {
 		background-color: #0891af90;
 		width: 270px;
 		height: 200px;
@@ -253,11 +251,11 @@ h1 {
 		z-index: -99;
 		bottom: 385px;
 		left: 200px;
-	} */
+	}
 
 	h1 {
-		font-size: 10px;
-		/* bottom: 590px; */
+		font-size: 30px;
+		/* bottom: 160px; */
 	}
 
 
