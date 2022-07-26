@@ -1,5 +1,5 @@
 :root {
-	--color-1: #2f3240;
+	--color-1: #000000;
 }
 
 * {
@@ -50,7 +50,7 @@ a {
 
 /*header*/
 .header {
-	background-color: var(--color-1);
+	background-color: #ffffff;
 	padding: 12px 0;
 	line-height: 1.5;
 	position: fixed;
@@ -69,6 +69,7 @@ a {
 	display: none;
 	margin-left: 400px;
 
+
 }
 
 .header .nav ul li {
@@ -81,7 +82,7 @@ a {
 	display: block;
 	font-size: 16px;
 	text-transform: capitalize;
-	color: #ffffff;
+	color: black;
 	padding: 10px 0;
 	transition: all 0.5s ease;
 }
@@ -104,7 +105,7 @@ a {
 
 .nav-toggler:focus {
 	outline: none;
-	box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+	box-shadow: 0 0 15px rgba(151, 149, 149, 0.5);
 }
 
 .nav-toggler span {
@@ -182,10 +183,17 @@ a {
 }
 
 .btn {
-	border-radius: 20px;
+	border-radius: 29px;
+	text-align: center;
 	margin-left: 30px;
+	padding: 15px;
+	font-size: 20px;
 	margin-top: 5px;
+	width: 200px;
+	height: 60px;
 }
+
+
 
 #about .about1 img {
 	width: 531px;
@@ -203,6 +211,10 @@ a {
 		scroll-behavior: smooth;
 	}
 
+	.header {
+		box-shadow: 20px 0 15px rgba(2, 2, 2, 0.5);
+	}
+
 	.nav-toggler {
 		display: block;
 
@@ -217,7 +229,6 @@ a {
 		visibility: hidden;
 		transition: all 0.5s ease;
 
-
 	}
 
 	.header .nav.open {
@@ -227,7 +238,7 @@ a {
 	.header .nav ul {
 		padding: 12px 15px 0;
 		margin-top: 12px;
-		border-top: 1px solid rgba(255, 255, 255, 0.2);
+		border-top: 1px solid rgba(42, 36, 36, 0.2);
 	}
 
 	.header .nav ul li {
@@ -237,7 +248,7 @@ a {
 
 	.header .logo a {
 		font-size: 20px;
-		color: #ffffff;
+		color: #000000;
 		/* text-transform: capitalize; */
 		display: block;
 		font-family: 'DM Serif Display', serif;
